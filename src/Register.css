@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/*.container{
+    margin: auto;
+    width: 60%;
+    padding:20px;
+    background: white;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.3);
+    max-width: 90%;
+
+}*/
+
+.container{
+        height: 100 vh;
+        width: 100 vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+}
+
+.form-container{
+    margin-top:280px;
+    font-size: 16px;
+    font-weight: bold;
+    background: grey;
+    height: 50 vh;
+    width: 50 vw;
+    border: 2 px solid white;
+    padding:35px;
+    line-height: 20px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.3);
+    
+}
+
+.form-control{
+    width:100%;
+    height: 30px;
+    border-radius: 4px;
+    margin:1px 0px 10px 0px; 
+    padding:0px 10px;
+
+}
+
+.login-btn{
+    margin-left: 48px;
+    color: white;
+    border: 2px solid #151504;
+    width: 140px;
+    height: 30px;
+    outline: none;
+    background: green;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.login-btn:hover {
+    background-color: #0f06b8; /* Green */
+    color: white;
+  }
+
+.form-container .lg-heding{
+    margin-left: 80px;
+} 
+
+.form-container .reg-link{
+        margin: 15px 0 0;
+        margin-left: 50px;
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+    
+  }
+
+/*for error message-----------------------------------*/
+
+.error-msg{
+    font-size: 12px;
+    width: 100%;
+    color: rgb(248, 11, 11);
+    
+}
